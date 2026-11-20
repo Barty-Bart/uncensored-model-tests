@@ -45,4 +45,4 @@
 
 ## What is not here
 
-The answer texts for this round were not kept. Only the label for each answer (answered, asked a question, refused) and the first line of the one refusal were saved, so that is all this page can show. The full answers for round one are in [`../01-round-one-294-answers/answers/`](../01-round-one-294-answers/answers/).
+The answer texts for this round were not kept. Only the label for each answer (answered, asked a question, refused) and the first line of the one refusal were saved, so that is all this page can show. The full answers for round one are in [`../01-round-one-294-tests/answers/`](../01-round-one-294-tests/answers/).

@@ -4,7 +4,7 @@ Does taking the refusals out cost anything else? Two measures, both with right a
 
 ## 1. Right-answer questions
 
-The 8 right-answer questions from round one (maths, myths, a small coding task, following an instruction). Details and every answer: [`../01-round-one-294-answers/`](../01-round-one-294-answers/).
+The 8 right-answer questions from round one (maths, myths, a small coding task, following an instruction). Details and every answer: [`../01-round-one-294-tests/`](../01-round-one-294-tests/).
 
 ## 2. Toy puzzles
 

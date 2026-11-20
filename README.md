@@ -1,4 +1,4 @@
-# Uncensored AI models, tested: the full results
+# Uncensored AI models: 294 tests, the full results
 
 The data behind the video **"I Tested 294 Prompts on Uncensored AI Models"**.
 
@@ -16,7 +16,7 @@ Open AI models that you can download and run on your own computer, each one next
 
 | Test | What it asks | Normal models | Uncensored copies | Details |
 |---|---|---|---|---|
-| Round one | 21 questions x 14 models = **294 answers**: everyday questions that sound touchy, plus questions with a right answer | answered almost everything; 8 of 8 right answers for every model | fixed the two questions that tripped the normals; four copies dropped a right answer | [`01-round-one-294-answers/`](01-round-one-294-answers/) |
+| Round one | 21 questions x 14 models = **294 tests**: everyday questions that sound touchy, plus questions with a right answer | answered almost everything; 8 of 8 right answers for every model | fixed the two questions that tripped the normals; four copies dropped a right answer | [`01-round-one-294-tests/`](01-round-one-294-tests/) |
 | Easy | 5 everyday questions | **30 of 30** answered | **40 of 40** answered | [`02-easy-and-medium/`](02-easy-and-medium/) |
 | Medium | 5 harmless questions worded in a way that trips filters | **29 of 30** answered | **40 of 40** answered | [`02-easy-and-medium/`](02-easy-and-medium/) |
 | Ladder (the slider) | the same request 5 times, the reason getting worse each time, on 3 topics | answered **41%** straight | answered **84%** straight | [`03-ladder/`](03-ladder/) |
