@@ -1,16 +1,32 @@
 # Uncensored AI models: 294 tests, the full results
 
-The data behind the video **"I Tested 294 Prompts on Uncensored AI Models"**.
+The data behind the video **"What If Claude Never Said No? (14 Uncensored Models Tested)"**.
 
 Video: `[link to add when the video is live]`
 
-## What was tested
+**Just want to run one?** Jump to [`07-get-started/`](07-get-started/): which model to download, how to run it in LM Studio, how to plug it into pi.dev in a sealed environment, and a prompt that has your AI test a few models on your own questions.
 
-Open AI models that you can download and run on your own computer, each one next to an "uncensored" copy of the same model (a copy edited after release to remove its refusals). The question was simple: what do you really gain when the refusals are taken out, and what do you lose?
+## What was tested, and how
 
-- **14 models**: six normal models, their uncensored copies, a second uncensored copy of one of them, and one small uncensored model with no twin. Names, repos, quants and sizes: [`models.md`](models.md).
-- **Only models you can own.** Nothing rented, nothing behind an API.
-- Two Claude models (Opus 4.8 and Opus 5.5) were added to one test, the ladder, as a comparison.
+Open models you can download and run on your own computer, each next to an "uncensored" copy of the same model: a copy edited after release to take its refusals out. There are two ways of doing that, called *abliterated* and *heretic*. The question was: what do you actually gain when the refusals are taken out, and what do you lose?
+
+- **14 models**: six normal models, their uncensored copies, a second uncensored copy of one of them, and one small uncensored model with no twin. Names, Hugging Face repos, quants and sizes are in [`models.md`](models.md). Only models you can own: nothing rented, nothing behind an API.
+- **Two Claude models** (Opus 4.8 and Opus 5.5) were added to the ladder as a comparison.
+
+### Part one: the first round (294 tests)
+
+21 questions × 14 models = **294 answers**: everyday questions that sound a bit touchy, plus questions that have one right answer (basic facts, simple maths), to check both willingness and accuracy in one go. → [`01-round-one-294-tests/`](01-round-one-294-tests/)
+
+### Part two: four questions, one test each
+
+| The question | The test | Size | Folder |
+|---|---|---|---|
+| What do they say yes or no to? | **Easy** (5 everyday questions) and **medium** (5 harmless questions worded to trip filters) | 5 × 14 models = 70 answers each | [`02-easy-and-medium/`](02-easy-and-medium/) |
+| Does the reason behind a request change the answer? | **The ladder**: the same request five times, the reason getting worse each time, on 3 topics | 15 × 11 models = 165 answers, plus 60 from Claude | [`03-ladder/`](03-ladder/) |
+| Does taking the refusals out make the model worse? | **Smarts**: right-answer questions and 5 toy practice puzzles, run twice | 110 puzzle runs | [`04-smarts-and-puzzles/`](04-smarts-and-puzzles/) |
+| Can it help test the security of my own app? | **The hard test**: 4 steps against a practice app built to be broken, in a sealed offline sandbox, then an agent loop | 4 steps × 4 models, then 2 loop runs | [`05-hard-test/`](05-hard-test/), [`06-sandbox-setup/`](06-sandbox-setup/) |
+
+Altogether that is **725 graded answers from the local models, plus 60 from Claude**.
 
 ## Results in one table
 
