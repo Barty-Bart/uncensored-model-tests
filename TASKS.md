@@ -14,8 +14,9 @@ Asked for on 20 Nov 2026: a private repo of the test results for review before i
 | 8 | Hard test: step grid and the named loop steps only | done | 05-hard-test/ |
 | 9 | Sandbox setup page with the Juice Shop link | done | 06-sandbox-setup/ |
 | 10 | Checks: numbers match the fact-check; search for attack strings and personal info | done | totals asserted in the build: 294; 30/30, 40/40, 29/30, 40/40; 41% and 84%; 32 and 25 of 50; searches run, results in the hand-over note |
-| 11 | Create the private GitHub repo and push | to do | |
+| 11 | Create the private GitHub repo and push | done | https://github.com/Barty-Bart/uncensored-model-tests (private), parent list in issue 1 |
 | 12 | Owner reviews, then decides whether it goes public and gets linked | to do | waits on the owner |
 | 13 | Add the exact wording of the combination-lock and paywall ladder questions (10 of the 15) | blocked | the raw ladder question file is not in the export this repo was built from; needs the original test files |
 | 14 | Add the answer texts for easy and medium, if they still exist anywhere | blocked | only labels were exported; needs the original test files, or a re-run |
 | 15 | Put the real video link in the README | to do | waits on the video going live |
+| 16 | Confirm the exact file names for the models with a starred quant on the models page | to do | needs the download list from the test machine |
